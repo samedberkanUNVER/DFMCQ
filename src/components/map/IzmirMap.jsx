@@ -12,7 +12,7 @@ export const IzmirMap = ({ markers = [] }) => {
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
     });
-    const izmirPosition = [38.4237, 27.1428];
+    const izmirPosition = [39.92088351374486, 32.85406879629672];
     const mapStyle = {
         height: '800px',
         width: '100%'
