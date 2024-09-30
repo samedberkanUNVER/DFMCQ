@@ -1,0 +1,29 @@
+.centered-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px; /* Resmin etrafında biraz boşluk bırakmak için */
+}
+
+.centered-image {
+    max-width: 80%;  /* Genişliği %80 ile sınırlandır */
+    max-height: 80%; /* Yüksekliği %80 ile sınırlandır */
+    object-fit: contain; /* Resmin oranlarını koruyarak sığdır */
+}
+
+/* Mobil uyumluluk için medya sorguları */
+@media (max-width: 768px) {
+    .centered-image-container {
+        padding: 20px; /* Mobil cihazlarda kenarlık boşluğu ekle */
+    }
+
+    .centered-image {
+        width: 100%; /* Mobil cihazlarda tam genişlik */
+        height: auto; /* Otomatik yükseklik */
+    }
+}
