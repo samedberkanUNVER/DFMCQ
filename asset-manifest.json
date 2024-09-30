@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DFMCQ/static/css/main.7d72cf6d.css",
+    "main.js": "/DFMCQ/static/js/main.91134335.js",
+    "static/js/453.f463c9a5.chunk.js": "/DFMCQ/static/js/453.f463c9a5.chunk.js",
+    "static/media/Lightning_McQueen.png": "/DFMCQ/static/media/Lightning_McQueen.05d2101c6249711b7a58.png",
+    "static/media/BenHızlıyım.mp3": "/DFMCQ/static/media/BenHızlıyım.d36507a81c74e6037970.mp3",
+    "index.html": "/DFMCQ/index.html",
+    "main.7d72cf6d.css.map": "/DFMCQ/static/css/main.7d72cf6d.css.map",
+    "main.91134335.js.map": "/DFMCQ/static/js/main.91134335.js.map",
+    "453.f463c9a5.chunk.js.map": "/DFMCQ/static/js/453.f463c9a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d72cf6d.css",
+    "static/js/main.91134335.js"
+  ]
+}
