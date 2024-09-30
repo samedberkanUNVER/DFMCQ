@@ -3,7 +3,7 @@ import {Image, Button, Modal} from 'antd';
 import LightningMcQueen from '../images/Lightning_McQueen.png';
 import hizliyim from '../sounds/BenHızlıyım.mp3';
 
-const McquennPage = () => {
+const McquennPage = ({ handleYesOption }) => {
     const [buttonPosition, setButtonPosition] = useState({ x: 0, y: 0 });
     const [isVisible, setIsVisible] = useState(false); // Modal'in görünürlüğünü kontrol etmek için state
 
@@ -19,6 +19,7 @@ const McquennPage = () => {
 
     const handleModalClose = () => {
         setIsVisible(false); // Modal kapatıldığında modal'ı görünmez yap
+        handleYesOption();
     };
 
     const audioRef = useRef(null);
